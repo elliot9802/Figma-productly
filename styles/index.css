@@ -1,0 +1,802 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 3843px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: 35px;
+    height: 28px;
+}
+
+.product-btn, .customers-btn, .pricing-btn, .resources-btn {
+    position: absolute;
+    margin-top: 44px;
+    margin-left: 650px;
+    font-weight: 200;
+}
+
+.product-btn {
+    margin-left: 650px;
+}
+
+.customers-btn {
+    margin-left: 725px;
+}
+
+.pricing-btn {
+    margin-left: 810px;
+}
+
+.resources-btn {
+    margin-left: 875px;
+}
+
+.sign-up-btn {
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 1054px;
+    padding: 11px 18px;
+    box-sizing: inherit;
+    background-color: #FF9900;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+}
+
+.sign-up-now-btn {
+    position: absolute;
+    border-radius: 4px;
+    background: #FF9900;
+    color: #ffffff;
+    text-align: center;
+    padding: 11px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 24px;
+    margin-left: 551px;
+    margin-top: 190px;
+}
+
+
+
+.sign-up-btn:hover,.sign-up-now-btn:hover, .footer-sign-up-btn, .get-started {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 969px;
+    padding: 9px 13px;
+    box-sizing: inherit;
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #BCD0E5;
+}
+
+.header-h1 {
+    position: absolute;
+    width: 518px;
+    height: 108px;
+    margin-top: 211px;
+    margin-left: 145px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2f281e;
+}
+
+.header-img {
+    position: absolute;
+    width: 480px;
+    height: 496px;
+    margin-top: 128px;
+    margin-left: 666px;
+}
+
+.header-text{
+    position: absolute;
+    width: 458px;
+    height: 95px;
+    margin-left: 145px;
+    margin-top: 349px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.get-started {
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 145px;
+    padding: 13px 47px;
+    box-sizing: inherit;
+    background-color: #FF9900;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    border: none;
+    text-decoration: none;
+}
+
+.watch-vid {
+    position: absolute;
+    text-decoration: underline; 
+    color: #FF9900;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 500px;
+    margin-left: 390px;
+}
+
+.triangle {
+    margin-top: 500px;
+    margin-left: 360px;
+}
+
+.superpowers {
+    position: absolute;
+    height: 108px;
+    margin-top: 200px;
+    margin-left: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+}
+
+.features-click {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 145px;
+    border-radius: 19px;
+    background: #7752BE;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+}
+
+    .click-h4 {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: 40px;
+    height: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    color: #2F281E;
+    }
+
+        .click-info {
+            position: absolute;
+            margin-left: 145px;
+            margin-top: 80px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #544837;
+        }
+
+.fa-mouse-pointer {
+    color: #ffffff;
+    margin-top: 367px;
+    margin-left: 165px;
+}
+
+.fa-heart {
+    color: #ffffff;
+    margin-top: 367px;
+    margin-left: 488px;
+}
+
+.fa-hourglass-half {
+    color: #ffffff;
+    margin-top: 367px;
+    margin-left: 239px;
+}
+
+.survey-icon {
+    margin-top: 367px;
+    margin-left: 165px;
+    z-index: +1;
+}
+
+.features-surveys {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 375px;
+    border-radius: 19px;
+    background: #FAB005;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+}
+
+    .surveys-h4 {
+    position: absolute;
+    margin-left: 375px;
+    margin-top: 40px;
+    height: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    color: #2F281E;
+    }
+
+        .surveys-info {
+            position: absolute;
+            margin-left: 375px;
+            margin-top: 80px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #544837;
+            
+            
+        }
+
+
+.features-preference {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 650px;
+    border-radius: 19px;
+    background: #F03E3D;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+}
+
+    .preference-h4 {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 40px;
+    height: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    color: #2F281E;
+    }
+
+        .preference-info {
+            position: absolute;
+            margin-left: 650px;
+            margin-top: 80px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #544837;
+        }
+
+.features-second {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 907px;
+    border-radius: 19px;
+    background: #4DADF7;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+}
+
+    .second-h4 {
+    position: absolute;
+    margin-left: 907px;
+    margin-top: 40px;
+    height: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    color: #2F281E;
+    }
+
+        .second-info {
+            position: absolute;
+            margin-left: 907px;
+            margin-top: 80px;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #544837;
+        }
+
+.design-intro {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 145px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+
+    .design-title {
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 145px;
+    height: 54px;
+    font-family:  'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+    }
+
+        .design-info1 {
+            position: absolute;
+            margin-top: 440px;
+            margin-left: 145px;
+            height: 54px;
+            font-family:  'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #2F281E;
+        }
+
+    .design-h2 {
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 145px;
+        height: 26px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #2F281E;
+    }
+
+        .design-info2 {
+            position: absolute;
+            margin-top: 590px;
+            margin-left: 145px;
+            height: 54px;
+            font-family:  'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #2F281E;
+        }
+    
+    .design-h3 {
+        position: absolute;
+        margin-top: 670px;
+        margin-left: 145px;
+        height: 26px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #2F281E;
+    }
+
+        .design-info3 {
+            position: absolute;
+            margin-top: 710px;
+            margin-left: 145px;
+            height: 54px;
+            font-family:  'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #2F281E;
+        }
+
+    .design-h4 {
+        position: absolute;
+        margin-top: 790px;
+        margin-left: 145px;
+        height: 26px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #2F281E;
+    }
+
+        .design-info4 {
+            position: absolute;
+            margin-top: 830px;
+            margin-left: 145px;
+            height: 54px;
+            font-family:  'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #2F281E;
+        }
+
+            .design-img {
+                margin-top: 330px;
+                margin-left: 680px;
+            }
+
+.product-img {
+    margin-top: 100px;
+    margin-left: 145px;
+    float: left;
+}
+
+    .product-intro {
+        margin-left: 810px;
+        margin-top: 130px;
+        position: absolute;
+        height: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #544837;
+    }
+
+    .product-title {
+        margin-left: 810px;
+        margin-top: 160px;
+        position: absolute;
+        height: 54px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        color: #2F281E;
+    }
+    
+    .product-info1 {
+        margin-left: 810px;
+        margin-top: 235px;
+        position: absolute;
+        height: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #544837;
+    }
+
+    .product-info2 {
+        margin-left: 880px;
+        margin-top: 340px;
+        position: absolute;
+        height: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #544837;
+    }
+
+    .check-circle1 {
+        position: absolute;
+        margin-top: 345px;
+        margin-left: 810px;
+        border-radius: 14px;
+        background: #FF9900;
+        width: 35px;
+        height: 35px;
+        z-index: -1;
+    }
+
+        .fa-check {
+            position: absolute;
+            margin-top: 355px;
+            margin-left: 139px;
+            color: #ffffff;
+        }
+
+    .product-info3 {
+        margin-left: 880px;
+        margin-top: 410px;
+        position: absolute;
+        height: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #544837;
+    }
+
+        .check-circle2 {
+            position: absolute;
+            margin-top: 413px;
+            margin-left: 810px;
+            border-radius: 14px;
+            background: #FF9900;
+            width: 35px;
+            height: 35px;
+            z-index: -1;
+        }
+
+    .product-info4 {
+        margin-left: 880px;
+        margin-top: 485px;
+        position: absolute;
+        height: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #544837;
+    }
+
+        .check-circle3 {
+            position: absolute;
+            margin-top: 490px;
+            margin-left: 810px;
+            border-radius: 14px;
+            background: #FF9900;
+            width: 35px;
+            height: 35px;
+            z-index: -1;
+        }
+
+.marketer-intro {
+    position: absolute;
+    margin-top: 790px;
+    margin-left: 145px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+
+    .marketer-title {
+        position: absolute;
+        margin-top: 815px;
+        margin-left: 145px;
+        height: 54px;
+        font-family:  'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        color: #2F281E;
+    }
+
+        .marketer-info1 {
+            position: absolute;
+            margin-top: 885px;
+            margin-left: 145px;
+            height: 54px;
+            font-family:  'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #2F281E;
+        }
+
+    .marketer-h2 {
+        position: absolute;
+        margin-top: 990px;
+        margin-left: 145px;
+        height: 26px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #2F281E;
+    }
+
+        .marketer-info2 {
+            position: absolute;
+            margin-top: 1030px;
+            margin-left: 145px;
+            height: 54px;
+            font-family:  'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #2F281E;
+        }
+
+    .marketer-h3 {
+        position: absolute;
+        margin-top: 1100px;
+        margin-left: 145px;
+        height: 26px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #2F281E;
+    }
+
+        .marketer-info3 {
+            position: absolute;
+            margin-top: 1140px;
+            margin-left: 145px;
+            height: 54px;
+            font-family:  'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #2F281E;
+        }    
+
+    .marketer-h4 {
+      position: absolute;
+        margin-top: 1220px;
+        margin-left: 145px;
+        height: 26px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        color: #2F281E;
+    }
+
+        .marketer-info4 {
+            position: absolute;
+            margin-top: 1260px;
+            margin-left: 145px;
+            height: 54px;
+            font-family:  'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #2F281E;
+        }
+
+            .marketer-img {
+                margin-top: 750px;
+                float: right;
+            }
+
+footer {
+    margin-top: 1550px;
+    display: flex;
+    flex-direction: row;
+   max-width: 1024px;
+    width: 100%; 
+    height: 308px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #bcd0e57f;
+}
+    .footer-nav {
+        margin-top: 150px;
+        margin-left: 139px;
+        display: flex;
+        flex-direction: row;
+        gap: 130px;
+        height: 199px;
+        align-items: flex-end;
+        position: relative;
+        line-height: 35px;
+    }
+
+    .footer-content {
+        position: absolute;
+        margin-top: 222px;
+        margin-left: 790px;
+        height: 48px;
+        width: 325px;
+        border: 1px solid #BCD0E5;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+        .footer-nav2 {
+            width: 100px;
+            list-style: none;
+        }
+
+        .footer-nav3 {
+            width: 190px;
+            list-style: none;
+        }
+
+            .registration {
+                width: 325px;
+                height: 48px;
+                background: #FFFFFF;
+                border: 1px solid #BCD0E5;
+                box-sizing: border-box;
+                border-radius: 4px;
+            }
+
+    .footer-sign-up-btn {
+        position: absolute;
+        margin-top: 20px;
+        width: 131px;
+        height: 39px;
+        background: #FF9900;
+        border-radius: 4px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;      
+    }
+
+            .footer-logo {
+                position: relative;
+                margin-top: 102px;
+                width: 185px; 
+                height: 32px;
+            }
